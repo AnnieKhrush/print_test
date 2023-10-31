@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b5d99;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative; /* Add this to make the container a reference for absolute positioning */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h2.typing-test {
+    margin-right: 20px; /* Add some space between the logo and the text */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.user {
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    height: 30px;
+    width: 30px;
+}
+.setting{
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    height: 30px;
+    width: 30px;
+}
